@@ -87,7 +87,6 @@ input[type=checkbox]{
 .list_item4:after  {
 	content: " ( hm... they always disappear )";
 	font-size: 11px;
->
 	color: #b6b7c8;
 }
 
