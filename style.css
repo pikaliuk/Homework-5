@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	transition: all .1s ease-in;
+}
+
+
+body {
+	background-color: #3b3f45;
+	
+}
+
+header, footer {
+	background-color: #4a4f56;
+	color: #e97d7e;
+	text-align: center;
+	padding: 15px;
+}
+
+footer {
+	position: static;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+form {
+	color: #fff;
+	margin: 20px auto;
+	max-width: 500px;
+}
+
+input[type=checkbox]{
+	margin-right: 5px;
+	min-height: 17px;
+	width: 17px;
+	vertical-align: middle;
+}
+
+ input:checked +label {
+	text-decoration: line-through;
+	color: #b6b7c8;
+}
+
+
+.list {
+	padding: 10px;
+}
+.list:nth-of-type(2n) {
+	background-color: #77778d;
+}
+
+.list:nth-of-type(2n+1) {
+	background-color: #848498;
+}
+
+.list:hover {
+	border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    background-color: #5e6172;
+}
+
+.list_item1:after {
+	content: " ( for the next lessons about CSS )";
+	font-size: 11px;
+	color: #b6b7c8;
+}
+
+.list_item2:after {
+	content: " ( for more CSS manipulations )";
+	font-size: 11px;
+	color: #b6b7c8;
+}
+
+
+.list_item3:after  {
+	content: " ( because there are awesome )";
+	font-size: 11px;
+	color: #b6b7c8;
+}
+
+.list_item4:after  {
+	content: " ( hm... they always disappear )";
+	font-size: 11px;
+	color: #b6b7c8;
+}
+
+.list_item6:after  {
+	content: " ( for my friends )";
+	font-size: 11px;
+	color: #b6b7c8;
+}
